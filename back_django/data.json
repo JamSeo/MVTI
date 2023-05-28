@@ -1,0 +1,1622 @@
+[
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$bzP9jl2HzFNY9z5yT7zP6d$9uzuDkiSp3stAzVhv6wmMwMjviOMvCtlo4yf45cBKZ8=",
+        "last_login": "2023-05-25T06:21:43.259Z",
+        "is_superuser": false,
+        "username": "eric",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-25T06:21:43.163Z",
+        "like_movies": "455476 667538 569094 976573 238 278 424 129 372058 ",
+        "groups": [],
+        "user_permissions": [],
+        "followings": [
+            3
+        ]
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$43JPbUgisX2PYeaUthCma0$TzgNAGyK+lrABNmBdQu4GkqrGeQr5KGaEe8CzZaXuoU=",
+        "last_login": "2023-05-25T06:25:19.846Z",
+        "is_superuser": false,
+        "username": "hwan",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-25T06:25:19.763Z",
+        "like_movies": "842675 447365 758323 532408 522444 569094 982271 640146 ",
+        "groups": [],
+        "user_permissions": [],
+        "followings": [
+            1,
+            3,
+            5
+        ]
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$VcNN8AhFL1QmHeQaNyXgUp$ldRCeGsO4dkEnaOrXIOzVQkgoluBQJRINqo8yFOzdAc=",
+        "last_login": "2023-05-25T06:30:06.252Z",
+        "is_superuser": false,
+        "username": "jsoo",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-25T06:30:06.168Z",
+        "like_movies": "677179 868759 594767 522444 429 122 129 842675 ",
+        "groups": [],
+        "user_permissions": [],
+        "followings": [
+            1,
+            2,
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$xt6ncxmTjmTeZGWyWgnGGU$OtqX4dbPBBqlF2DV1slRr/CxLk03dNzbtNOTw5HP9mw=",
+        "last_login": "2023-05-25T06:33:01.354Z",
+        "is_superuser": false,
+        "username": "huni",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-25T06:33:01.274Z",
+        "like_movies": "372058 667538 599019 876797 769 8416 760568 680 13 ",
+        "groups": [],
+        "user_permissions": [],
+        "followings": [
+            1,
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$wMw6qOWs4AvOZr13EzGRMu$zFD7aiDOL9td0eB69hxp978ZVBLlyuaVKTk3RjpaTHI=",
+        "last_login": "2023-05-25T06:35:16.758Z",
+        "is_superuser": false,
+        "username": "bogi",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-25T06:35:16.674Z",
+        "like_movies": "916405 81188 629542 774752 888479 877183 ",
+        "groups": [],
+        "user_permissions": [],
+        "followings": [
+            1,
+            2,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "title": "뉴진스 중에 누가 제일 이쁨?",
+        "content": "나는 하니가 이쁘던데. 호주 멜버른에서 태어나고 쭉 자랐다. 부모님은 모두 베트남인이며 아버지는 하노이 출신이고 어머니는 호찌민 시 출신이다. 부모님과는 베트남어로 대화했고 부모의 고향인 베트남을 여러번 여행한 경험이 있다. 여동생과 함께 베트남 전통 의상인 아오자이를 입고 찍은 사진도 있다. 현재도 조부모님을 포함한 가족들은 호주에 살고 있다.",
+        "created_at": "2023-05-25T06:22:54.977Z",
+        "updated_at": "2023-05-25T06:22:54.977Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "title": "다른 사람들도 의견 공유좀요!!",
+        "content": "하니의 특징은 딕션, 성량, 음색, 음역대, 가사 전달력, 라이브 안정성 등 여러 방면에서 기본기가 매우 탄탄하다. 고른 발성과 함께 부드러우면서도 탄탄한 느낌을 주는 맑고 청량한 음색이 특징으로, 팬들은 '자체 오토튠을 건 듯하다'라는 표현을 종종 사용한다.",
+        "created_at": "2023-05-25T06:23:21.527Z",
+        "updated_at": "2023-05-25T06:23:21.527Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 3,
+    "fields": {
+        "user": 2,
+        "title": "나는 개인적으로 뉴진스 중에서는 다니엘이 좋아",
+        "content": "호주에서 태어나고 4살 때부터 7살까지 약 3년 동안 경기도 파주시 문산읍에서 거주했다. 과거 다니엘 트윗 계정 # 한국에서 잠시 살았던 이유는 어머니가 자녀들에게 한국어와 한국 문화를 가르치길 원해서였고, 아버지는 한국에서 영어 강사로 근무했다.[17] 2012년 6월 초등학교 1학년 1학기 말부터 호주로 다시 돌아가서 자랐다.[18] # 서울에서 데프댄스스쿨을 다니며 보컬, 댄스를 배웠다. 2020년 중학교 3학년 때부터 약 2년 동안 연습생으로 생활했다. 인터뷰 한국 학교에는 재학하지 않은 것으로 보인다.[19]",
+        "created_at": "2023-05-25T06:28:55.534Z",
+        "updated_at": "2023-05-25T06:28:55.534Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 4,
+    "fields": {
+        "user": 2,
+        "title": "준수는 누가 좋아?",
+        "content": "성숙하고 청아한 음색이 특징으로, 넓은 보컬 레인지와 톤의 다양성이 큰 장점이다. 차분한 로우톤과 힘 있는 하이톤 모두 잘 사용한다. 중고음역대의 소리가 평소와 같이 밝고 순수한 느낌인 반면 저음은 도도한 인상을 준다. 어떤 곡이든 특유의 리듬감을 살려 노래하며 성대 컨트롤, 공명, 호흡 등의 발성적인 포텐셜도 두드러진다. 라이브 실력도 뛰어나다. 'Hurt'에서 화음 담당을 겸했으며 음악방송 1위 앵콜 등에서 음원과 유사할 정도의 안정감을 보여줬다. 엠카운트다운에서 각 팀의 메인보컬들만 참가한 보컬 챌린지에서 하니와 함께 대표로 참가했다. 이 때 하니가 다니엘의 음색이 특이하고 귀에 잘 들어와서 계속 듣고 싶은 목소리라고 표현했다.본영상 비하인드 ‘Hype boy’ 한소절 부르기에서 뛰어난 라이브 실력을 입증했고 # ‘OMG’ 연습 영상에서도 생라이브로 안정감 있는 라이브를 보여주었다. # Ditto & OMG 레코딩 비하인드 영상에서 몽환적인 음색을 선보였다. #",
+        "created_at": "2023-05-25T06:29:24.618Z",
+        "updated_at": "2023-05-25T06:29:24.618Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 5,
+    "fields": {
+        "user": 3,
+        "title": "나는 해린이 좋더라구 ㅎㅎㅎ",
+        "content": "4세대 걸그룹 고양이상 외모의 대표적인 멤버이며 도도하고 세련된 인상을 가지고 있다. 매우 큰 눈과 고양이처럼 적당히 올라간 눈꼬리, 높은 코 덕분에 화려하고 차가운 느낌을 주지만 짧은 하안부와 젖살로 인해 웃을 때 귀여운 반전매력도 있다. 이목구비가 뚜렷하고 화려한 편이라 강아지상인 민지와 함께 있으면 서로 다른 매력에서 오는 비주얼의 시너지가 있다.[33] 팬들은 종종 농담 삼아 해린은 고양이상이 아닌 사실 진짜 고양이이며, 고양이인데 인간상인 것이라고 표현하곤 한다.",
+        "created_at": "2023-05-25T06:31:29.403Z",
+        "updated_at": "2023-05-25T06:31:29.403Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 6,
+    "fields": {
+        "user": 3,
+        "title": "해린 말고는 나는 김채원도 좋아!",
+        "content": "또한 파워풀한 춤선이 요구되는 곡도 잘 소화한다. 아이솔레이션과 같이 섬세함이 필요한 안무에서 특히 눈에 띄며 특유의 유연하고 뛰어난 강약조절로 본인만의 디테일을 잘 살리는 것이 큰 장점. 아이즈원 활동 때도 Highlight의 마지막 싸비 파트나 Sequence의 2절 바로 들어가기 전 리듬을 타는 안무에서도 굳이 기량이 뛰어난 메인댄서 둘을 두고 김채원을 센터에 세우는 것을 보면 알 수 있다. 김채원의 춤은 고유의 살랑살랑 예쁜 춤선이 큰 특징 중 하나인데 김채원만의 사소한 디테일이 그녀를 더욱 두드러지게 만든다. 결론적으로 통통 튀는 발랄한 안무, 하늘하늘함이 돋보이는 부드러운 안무, 파워풀하고 힘이 많이 필요한 안무까지 모두 준수하게 소화할 수 있으며, 곡의 분위기나 상황에 따라 이를 자유로이 오가며 조절할 수 있는 다재다능한 밸런스 멤버라고 할 수 있겠다. 김채원의 직캠 몇 개만 봐도 이를 알 수 있다.",
+        "created_at": "2023-05-25T06:32:09.571Z",
+        "updated_at": "2023-05-25T06:32:09.571Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 7,
+    "fields": {
+        "user": 4,
+        "title": "에이 사쿠라지!",
+        "content": "프로듀스48 당시 일본 아이돌 활동을 하며 제대로 된 트레이닝을 받지 못해 부족한 댄스 실력을 보여주었으나 IZ*ONE 활동을 하며 실력이 꾸준히 향상되었다는 평을 많이 받는 멤버이다. 본인도 여러 매체를 통해 자신의 성장과 관련된 댓글들을 읽고 감동 받았던 적이 많았고, 이를 자극제로 삼아 더 열심히 할 수 있었다고 언급하기도 했다. 특히, IZ*ONE의 세 번째 미니앨범의 타이틀곡인 환상동화의 댄스브레이크 멤버[35]로 들어가며 사쿠라의 실력 성장에 대한 이야기가 많이 나오기 시작했다. 프로듀스48 방송 당시 IZ*ONE 활동을 하며 잘 따라가기만 해도 다행이라는 평을 했던 사람들 역시 인간승리라고 말하기도 했으며, 각종 커뮤니티에 사쿠라의 관련 게시글이 올라오고 직캠의 댓글 대부분이 성장한 실력을 언급하는 댓글이었다. 사쿠라도 이러한 반응을 보고 감동 받아 울었다고 프라이빗 메일을 보내기도 했다.",
+        "created_at": "2023-05-25T06:34:34.906Z",
+        "updated_at": "2023-05-25T06:34:34.906Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 8,
+    "fields": {
+        "user": 4,
+        "title": "그거 혹시 사쿠라여?",
+        "content": "LE SSERAFIM의 비주얼 멤버이다. 차갑고 도회적인 느낌의 고양이상이다. 얼굴형과 이목구비가 뚜렷하게 입체적이며 피부도 매우 하얗고 잡티 하나 없어, 어지간하면 소화하기 힘든 밝은 계통의 염색도 잘 어울리는 편이며 여러가지 컨셉도 찰떡으로 소화한다. 눈이 굉장히 크다. 실제로 팬사인회 등에서 사쿠라의 실물을 본 팬들은 저렇게 눈이 크고 예쁜 사람은 처음 봤다며 감탄하기도했다. 또한 최예나도 그녀의 눈 크기에 놀라기도 했다. 카카오TV 아이콘[38]다만 이 큰 눈이 사쿠라 본인한테는 단점으로 꼽히는 듯.[39] 본인이 생각하는 자신의 비주얼적 매력 포인트는 '귀'라고 한다. 실제로 정면에서 형태가 뚜렷이 보이는 돌출귀를 가지고 있어서 귀를 드러낸 머리가 잘 어울린다. 귀가 매력적이고 매우 크기도 해서 '귀짱커'라는 별명도 있다. 이 때문에 포니테일이 잘 어울린다는 의견이 많다.",
+        "created_at": "2023-05-25T06:34:53.041Z",
+        "updated_at": "2023-05-25T06:34:53.041Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 9,
+    "fields": {
+        "user": 5,
+        "title": "아직도 걸그룹 좋아하냐!!",
+        "content": "기존 형태의 그룹들에 비해 적은 타격감 멤버들이나 팀에서 문제가 발생할 경우, 올팬보다 타격이 적다. 조금은 다른 경우이지만, 개인 팬이 많은 BIGBANG 등 다른 한국 아이돌 그룹들을 봐도 알 수 있다. 만약 이 그룹들이 올팬 위주의 구조였다면 팬덤이 상당히 위태로울 수도 있었다. 하지만 한국 아이돌의 특성 상 NCT도 올팬 기조로 흐르고 있고, 만약 문제가 발생했을 때에 기저에서 받쳐주는 게 올팬이기도 하다. 서브 그룹들이 다양하게 존재하기 때문에 공백기를 최소화할 수 있다. 예를 들어, NCT 127의 비활동기에 NCT DREAM이 컴백하는 방식으로 ‘떡밥’이 끊이지 않게 운영할 수 있다. 특히 보이그룹의 맹점이기도 한 군백기가 거의 없다고 보면 된다.[29] 회사 입장에서는 새로운 아이돌 그룹을 런칭하는 것에 대한 부담을 줄일 수 있고 연습생 입장에서는 데뷔조에 들지 못할 경우 다음 그룹이 런칭되기 전까지의 긴 시간을 보낼 필요가 없어지게 된다.[30]",
+        "created_at": "2023-05-25T06:36:47.826Z",
+        "updated_at": "2023-05-25T06:36:47.826Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 10,
+    "fields": {
+        "user": 5,
+        "title": "사실은 나 아이브야 ㅎㅎㅎ",
+        "content": "걸그룹 판에서 걸 크러시로 대두되는 그룹은 흔히 말하는 센 언니라는 기믹을 전면적으로 내세우며 파워풀하고 섹시한 이미지와 콘셉트[5]를 지향한다. 그러나 IVE의 경우 일단 시대가 변하고 트렌드도 변하면서 대중들은 단순히 강렬하고 센 느낌의 콘셉트가 아닌, 보다 다양하고 색다른 모습을 원하게 된 점을 미루어 궁리하고 연구한 끝에 자신감 넘치는 아름다운 소녀 이미지를 구축해 차별화를 시도했다.  사실 이 차별화는 현재 걸크러시 콘셉트로 활동하는 걸그룹 대부분에게 해당되는 말이긴 하다. 당당하고 주체적인 소녀 콘셉트의 정석에 가까운 ITZY, 콘셉트추얼함과 자체 제작으로 승부를 보는 (여자)아이들, 독자적인 세계관과 음악 스타일로 어필하는 aespa 등. 하지만 IVE는 다른 걸 크러시 콘셉트 걸그룹들이 주로 랩, 힙합에 가까운 구성을 갖춘 음악을 내세우는 것과는 달리[6] 보컬의 비중이 더 높은 음악을 내세움으로써 좀 더 대중성 있고 트렌디한 음악을 한다는 평가를 받는다. 이에 더해, IVE의 노래들은 2000년대 후반 ~ 2010년대 초중반에 전성기를 누렸던 2세대 걸그룹들의 노래와도 비슷한 느낌을 많이 주기 때문에 이로 인해 호감을 느끼는 이들도 상당히 많다.[7]  연타석 홈런을 친 데뷔 싱글 1집 타이틀곡 ELEVEN과 싱글 2집 타이틀곡 LOVE DIVE 모두 표면적으로 보기에는 흔하게 볼 수 있는 사랑에 빠진 소녀의 심리를 노래한 곡으로 볼 수 있다. 하지만 사실 가사를 자세히 분석해 보면 상대방이 아닌 자기 자신한테 사랑에 빠진 화자의 심리를 노래한다는 상당히 독특한 내용인데, 걸 크러시를 표방한 걸그룹이 이러한 주제를 메인 콘셉트로 잡고 나오는 케이스가 잘 없기에 대중들에게 차별화된 콘셉트로 눈도장을 찍을 수 있게 되었다.  결과적으로 이러한 콘셉트 구축은 매우 성공적인 성과를 냈다. 흔히 M세대 후반과 Z세대로 대표되는[8] 현 1020 세대의 가장 큰 관심사이자 워너비 소재인 주체적인 자아상, 특히 10대들이라면 누구나 동경할 법한 자신을 사랑하고 스스로에게 당당한 이미지가 제대로 먹혔다. 게다가 IZ*ONE 활동을 거치며 쌓아온 안유진과 장원영의 팬덤 화력, 아이즈원 출신이 아닌 새로운 멤버로 유입된 추가적인 팬덤 화력이 더해져 결과적으로 IVE가 빠르게, 그리고 안정적으로 자리를 잡게 해 준 원동력이 되었다.",
+        "created_at": "2023-05-25T06:37:20.511Z",
+        "updated_at": "2023-05-25T06:37:20.511Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 1,
+    "fields": {
+        "user": 5,
+        "article": 1,
+        "content": "아직도 뉴진스 좋아해? ㄷㄷ",
+        "created_at": "2023-05-25T06:37:42.925Z",
+        "updated_at": "2023-05-25T06:37:42.925Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 2,
+    "fields": {
+        "user": 5,
+        "article": 2,
+        "content": "나는 ㅎㅎ 아이브 원툴",
+        "created_at": "2023-05-25T06:37:53.075Z",
+        "updated_at": "2023-05-25T06:37:53.075Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 3,
+    "fields": {
+        "user": 5,
+        "article": 3,
+        "content": "여기도 뉴진스네 ㄷㄷ",
+        "created_at": "2023-05-25T06:37:59.777Z",
+        "updated_at": "2023-05-25T06:37:59.777Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 4,
+    "fields": {
+        "user": 5,
+        "article": 4,
+        "content": "준수 저번에 해린이 좋다고 하던데?",
+        "created_at": "2023-05-25T06:38:09.126Z",
+        "updated_at": "2023-05-25T06:38:09.126Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 5,
+    "fields": {
+        "user": 5,
+        "article": 5,
+        "content": "거봐 그럴줄 알았어",
+        "created_at": "2023-05-25T06:38:16.860Z",
+        "updated_at": "2023-05-25T06:38:16.860Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 6,
+    "fields": {
+        "user": 5,
+        "article": 6,
+        "content": "엥 갑분김??!?!?!?",
+        "created_at": "2023-05-25T06:38:31.937Z",
+        "updated_at": "2023-05-25T06:38:31.937Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 7,
+    "fields": {
+        "user": 5,
+        "article": 7,
+        "content": "동훈님 언제부터 좋아하셨어요",
+        "created_at": "2023-05-25T06:38:44.209Z",
+        "updated_at": "2023-05-25T06:38:44.209Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 8,
+    "fields": {
+        "user": 5,
+        "article": 8,
+        "content": "ㅋㅋㅋ 명대사지",
+        "created_at": "2023-05-25T06:38:51.255Z",
+        "updated_at": "2023-05-25T06:38:51.255Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 9,
+    "fields": {
+        "user": 5,
+        "article": 9,
+        "content": "나는 평생 nct 원툴이다 이제!!!!!!!!!!!!",
+        "created_at": "2023-05-25T06:39:05.161Z",
+        "updated_at": "2023-05-25T06:39:05.161Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 10,
+    "fields": {
+        "user": 5,
+        "article": 10,
+        "content": "아이브에서는 안유진이 젤 좋더라구",
+        "created_at": "2023-05-25T06:39:16.132Z",
+        "updated_at": "2023-05-25T06:39:16.132Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 11,
+    "fields": {
+        "user": 4,
+        "article": 1,
+        "content": "재현님 그만 노시구 코딩하셔야죠",
+        "created_at": "2023-05-25T06:40:04.207Z",
+        "updated_at": "2023-05-25T06:40:04.207Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 12,
+    "fields": {
+        "user": 4,
+        "article": 2,
+        "content": "전 갠적으로 사쿠라요 ㅎㅎ",
+        "created_at": "2023-05-25T06:40:16.130Z",
+        "updated_at": "2023-05-25T06:40:16.130Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 13,
+    "fields": {
+        "user": 4,
+        "article": 3,
+        "content": "ㅎㅎ 취향 존중합니당ㅎ",
+        "created_at": "2023-05-25T06:40:26.797Z",
+        "updated_at": "2023-05-25T06:40:26.797Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 14,
+    "fields": {
+        "user": 4,
+        "article": 4,
+        "content": "준수님 바빠보이셔요",
+        "created_at": "2023-05-25T06:40:39.953Z",
+        "updated_at": "2023-05-25T06:40:39.953Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 15,
+    "fields": {
+        "user": 4,
+        "article": 5,
+        "content": "크 인졍인졍",
+        "created_at": "2023-05-25T06:40:49.329Z",
+        "updated_at": "2023-05-25T06:40:49.329Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 16,
+    "fields": {
+        "user": 4,
+        "article": 6,
+        "content": "저도 김채원 좋아햇어요!",
+        "created_at": "2023-05-25T06:40:59.961Z",
+        "updated_at": "2023-05-25T06:40:59.961Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 17,
+    "fields": {
+        "user": 4,
+        "article": 7,
+        "content": "저 꽤 됐어요 ㅎㅎ 아이즈원때부터?",
+        "created_at": "2023-05-25T06:41:12.114Z",
+        "updated_at": "2023-05-25T06:41:12.114Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 18,
+    "fields": {
+        "user": 4,
+        "article": 8,
+        "content": "ㅋㅋㅋㅋㅋㅋㅋ",
+        "created_at": "2023-05-25T06:41:18.614Z",
+        "updated_at": "2023-05-25T06:41:18.614Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 19,
+    "fields": {
+        "user": 4,
+        "article": 9,
+        "content": "현복님... 어쩌다",
+        "created_at": "2023-05-25T06:41:28.706Z",
+        "updated_at": "2023-05-25T06:41:28.706Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 20,
+    "fields": {
+        "user": 4,
+        "article": 10,
+        "content": "안유진 지락실 넘좋구요",
+        "created_at": "2023-05-25T06:41:46.781Z",
+        "updated_at": "2023-05-25T06:41:46.781Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 21,
+    "fields": {
+        "user": 3,
+        "article": 1,
+        "content": "또 하니 말하겟지",
+        "created_at": "2023-05-25T06:42:21.222Z",
+        "updated_at": "2023-05-25T06:42:21.222Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 22,
+    "fields": {
+        "user": 3,
+        "article": 1,
+        "content": "ㄷㄷㄷ",
+        "created_at": "2023-05-25T06:42:23.965Z",
+        "updated_at": "2023-05-25T06:42:23.965Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 23,
+    "fields": {
+        "user": 3,
+        "article": 2,
+        "content": "ㅎㅎ 해리니가 더 이쁨",
+        "created_at": "2023-05-25T06:42:33.008Z",
+        "updated_at": "2023-05-25T06:42:33.008Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 24,
+    "fields": {
+        "user": 3,
+        "article": 3,
+        "content": "헉",
+        "created_at": "2023-05-25T06:42:38.066Z",
+        "updated_at": "2023-05-25T06:42:38.066Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 25,
+    "fields": {
+        "user": 3,
+        "article": 3,
+        "content": "나 몰랐음",
+        "created_at": "2023-05-25T06:42:41.498Z",
+        "updated_at": "2023-05-25T06:42:41.498Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 26,
+    "fields": {
+        "user": 3,
+        "article": 4,
+        "content": "나? 이따 게시판 확인해봐",
+        "created_at": "2023-05-25T06:42:51.716Z",
+        "updated_at": "2023-05-25T06:42:51.716Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 27,
+    "fields": {
+        "user": 3,
+        "article": 5,
+        "content": "해린이 짱이ㅟ!!!!",
+        "created_at": "2023-05-25T06:42:59.699Z",
+        "updated_at": "2023-05-25T06:42:59.699Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 28,
+    "fields": {
+        "user": 3,
+        "article": 6,
+        "content": "요즘 김채원 폼미쵸따이",
+        "created_at": "2023-05-25T06:43:07.233Z",
+        "updated_at": "2023-05-25T06:43:07.233Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 29,
+    "fields": {
+        "user": 3,
+        "article": 7,
+        "content": "네???? 김채원이 있는데요?",
+        "created_at": "2023-05-25T06:43:17.136Z",
+        "updated_at": "2023-05-25T06:43:17.136Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 31,
+    "fields": {
+        "user": 3,
+        "article": 8,
+        "content": "패 건들지마",
+        "created_at": "2023-05-25T06:43:31.248Z",
+        "updated_at": "2023-05-25T06:43:31.248Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 32,
+    "fields": {
+        "user": 3,
+        "article": 8,
+        "content": "손모가지 날아가붕게",
+        "created_at": "2023-05-25T06:43:34.167Z",
+        "updated_at": "2023-05-25T06:43:34.167Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 33,
+    "fields": {
+        "user": 3,
+        "article": 9,
+        "content": "윽;;;;;;",
+        "created_at": "2023-05-25T06:43:47.167Z",
+        "updated_at": "2023-05-25T06:43:47.167Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 34,
+    "fields": {
+        "user": 3,
+        "article": 9,
+        "content": "취향 존중 못함",
+        "created_at": "2023-05-25T06:43:51.268Z",
+        "updated_at": "2023-05-25T06:43:51.268Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 35,
+    "fields": {
+        "user": 3,
+        "article": 10,
+        "content": "기만자여~",
+        "created_at": "2023-05-25T06:43:57.933Z",
+        "updated_at": "2023-05-25T06:43:57.933Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 36,
+    "fields": {
+        "user": 2,
+        "article": 1,
+        "content": "뉴진스는 다니엘 ㅎㅎ",
+        "created_at": "2023-05-25T06:44:43.108Z",
+        "updated_at": "2023-05-25T06:44:43.108Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 37,
+    "fields": {
+        "user": 2,
+        "article": 4,
+        "content": "준수 ㅇㅋ",
+        "created_at": "2023-05-25T06:44:53.951Z",
+        "updated_at": "2023-05-25T06:44:53.951Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 38,
+    "fields": {
+        "user": 2,
+        "article": 5,
+        "content": "대답을 ㅋㅋ 게시글로 하네",
+        "created_at": "2023-05-25T06:45:04.234Z",
+        "updated_at": "2023-05-25T06:45:04.234Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 39,
+    "fields": {
+        "user": 2,
+        "article": 6,
+        "content": "김채원 인정 인정",
+        "created_at": "2023-05-25T06:45:14.215Z",
+        "updated_at": "2023-05-25T06:45:14.215Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 40,
+    "fields": {
+        "user": 2,
+        "article": 7,
+        "content": "김채원>>>>>>>>>>>>>>>사쿠라",
+        "created_at": "2023-05-25T06:45:30.532Z",
+        "updated_at": "2023-05-25T06:45:30.532Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 41,
+    "fields": {
+        "user": 2,
+        "article": 8,
+        "content": "그치 사쿠라는 그게 진또지",
+        "created_at": "2023-05-25T06:45:40.569Z",
+        "updated_at": "2023-05-25T06:45:40.569Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 42,
+    "fields": {
+        "user": 2,
+        "article": 9,
+        "content": "현복아.. 나한테 잘해줄때부터 알아봤어",
+        "created_at": "2023-05-25T06:45:53.526Z",
+        "updated_at": "2023-05-25T06:45:53.526Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 43,
+    "fields": {
+        "user": 2,
+        "article": 10,
+        "content": "윽",
+        "created_at": "2023-05-25T06:45:57.687Z",
+        "updated_at": "2023-05-25T06:45:57.687Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 44,
+    "fields": {
+        "user": 2,
+        "article": 10,
+        "content": "나는???",
+        "created_at": "2023-05-25T06:46:00.351Z",
+        "updated_at": "2023-05-25T06:46:00.351Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 45,
+    "fields": {
+        "user": 1,
+        "article": 1,
+        "content": "아오 뉴진스는 하니 원툴이라니까",
+        "created_at": "2023-05-25T06:46:38.433Z",
+        "updated_at": "2023-05-25T06:46:38.433Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 46,
+    "fields": {
+        "user": 1,
+        "article": 2,
+        "content": "아주들 다양들 하구만들",
+        "created_at": "2023-05-25T06:46:48.987Z",
+        "updated_at": "2023-05-25T06:46:48.987Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 47,
+    "fields": {
+        "user": 1,
+        "article": 3,
+        "content": "다니엘 이번에 노래 들어봄?? 개쩖",
+        "created_at": "2023-05-25T06:47:00.232Z",
+        "updated_at": "2023-05-25T06:47:00.232Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 48,
+    "fields": {
+        "user": 1,
+        "article": 4,
+        "content": "ㅋㅋㅋ",
+        "created_at": "2023-05-25T06:47:08.693Z",
+        "updated_at": "2023-05-25T06:47:08.693Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 49,
+    "fields": {
+        "user": 1,
+        "article": 5,
+        "content": "나는 하니 다음으로 해린이야!!",
+        "created_at": "2023-05-25T06:47:19.538Z",
+        "updated_at": "2023-05-25T06:47:19.538Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 50,
+    "fields": {
+        "user": 1,
+        "article": 6,
+        "content": "너무 귀엽구",
+        "created_at": "2023-05-25T06:47:29.703Z",
+        "updated_at": "2023-05-25T06:47:29.703Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 51,
+    "fields": {
+        "user": 1,
+        "article": 7,
+        "content": "오 저도!! 아이즈원 개좋아했어요",
+        "created_at": "2023-05-25T06:47:39.732Z",
+        "updated_at": "2023-05-25T06:47:39.732Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 52,
+    "fields": {
+        "user": 1,
+        "article": 8,
+        "content": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+        "created_at": "2023-05-25T06:47:45.669Z",
+        "updated_at": "2023-05-25T06:47:45.669Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 53,
+    "fields": {
+        "user": 1,
+        "article": 8,
+        "content": "개웃기네 댓글",
+        "created_at": "2023-05-25T06:47:48.836Z",
+        "updated_at": "2023-05-25T06:47:48.836Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 54,
+    "fields": {
+        "user": 1,
+        "article": 9,
+        "content": "현복아 약묵자",
+        "created_at": "2023-05-25T06:48:01.987Z",
+        "updated_at": "2023-05-25T06:48:01.987Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 55,
+    "fields": {
+        "user": 1,
+        "article": 10,
+        "content": "장원영이 더 낫지 않아??? 나는 장원영>>>>>>>>>안유진인듯",
+        "created_at": "2023-05-25T06:48:16.570Z",
+        "updated_at": "2023-05-25T06:48:16.570Z"
+    }
+},
+{
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 1,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 1,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 1,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 1,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add user mvti",
+        "content_type": 2,
+        "codename": "add_usermvti"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change user mvti",
+        "content_type": 2,
+        "codename": "change_usermvti"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete user mvti",
+        "content_type": 2,
+        "codename": "delete_usermvti"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view user mvti",
+        "content_type": 2,
+        "codename": "view_usermvti"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add article",
+        "content_type": 3,
+        "codename": "add_article"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change article",
+        "content_type": 3,
+        "codename": "change_article"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete article",
+        "content_type": 3,
+        "codename": "delete_article"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view article",
+        "content_type": 3,
+        "codename": "view_article"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add comment",
+        "content_type": 4,
+        "codename": "add_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change comment",
+        "content_type": 4,
+        "codename": "change_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete comment",
+        "content_type": 4,
+        "codename": "delete_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view comment",
+        "content_type": 4,
+        "codename": "view_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add Token",
+        "content_type": 5,
+        "codename": "add_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change Token",
+        "content_type": 5,
+        "codename": "change_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete Token",
+        "content_type": 5,
+        "codename": "delete_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view Token",
+        "content_type": 5,
+        "codename": "view_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add token",
+        "content_type": 6,
+        "codename": "add_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change token",
+        "content_type": 6,
+        "codename": "change_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete token",
+        "content_type": 6,
+        "codename": "delete_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view token",
+        "content_type": 6,
+        "codename": "view_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add site",
+        "content_type": 7,
+        "codename": "add_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change site",
+        "content_type": 7,
+        "codename": "change_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete site",
+        "content_type": 7,
+        "codename": "delete_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view site",
+        "content_type": 7,
+        "codename": "view_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add email address",
+        "content_type": 8,
+        "codename": "add_emailaddress"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change email address",
+        "content_type": 8,
+        "codename": "change_emailaddress"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete email address",
+        "content_type": 8,
+        "codename": "delete_emailaddress"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view email address",
+        "content_type": 8,
+        "codename": "view_emailaddress"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add email confirmation",
+        "content_type": 9,
+        "codename": "add_emailconfirmation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change email confirmation",
+        "content_type": 9,
+        "codename": "change_emailconfirmation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete email confirmation",
+        "content_type": 9,
+        "codename": "delete_emailconfirmation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view email confirmation",
+        "content_type": 9,
+        "codename": "view_emailconfirmation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add social account",
+        "content_type": 10,
+        "codename": "add_socialaccount"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change social account",
+        "content_type": 10,
+        "codename": "change_socialaccount"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete social account",
+        "content_type": 10,
+        "codename": "delete_socialaccount"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view social account",
+        "content_type": 10,
+        "codename": "view_socialaccount"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add social application",
+        "content_type": 11,
+        "codename": "add_socialapp"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change social application",
+        "content_type": 11,
+        "codename": "change_socialapp"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete social application",
+        "content_type": 11,
+        "codename": "delete_socialapp"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view social application",
+        "content_type": 11,
+        "codename": "view_socialapp"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add social application token",
+        "content_type": 12,
+        "codename": "add_socialtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change social application token",
+        "content_type": 12,
+        "codename": "change_socialtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete social application token",
+        "content_type": 12,
+        "codename": "delete_socialtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view social application token",
+        "content_type": 12,
+        "codename": "view_socialtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 13,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 13,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 13,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 13,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 14,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 14,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 14,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 14,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 15,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 15,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 15,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 15,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 16,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 16,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 16,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 16,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 17,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 17,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 17,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 17,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "accounts",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "accounts",
+        "model": "usermvti"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "articles",
+        "model": "article"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "articles",
+        "model": "comment"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "authtoken",
+        "model": "token"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "authtoken",
+        "model": "tokenproxy"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "sites",
+        "model": "site"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "account",
+        "model": "emailaddress"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "account",
+        "model": "emailconfirmation"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "socialaccount",
+        "model": "socialaccount"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "socialaccount",
+        "model": "socialapp"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "socialaccount",
+        "model": "socialtoken"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8ci5881mpwcybngn13hfsbp3v4kxahnc",
+    "fields": {
+        "session_data": ".eJxljEEKgzAQRe-StcjEaEzctRcJ42TE0DRCTbopvXtVpFC6nPf-vJdAoqWk7J78CFNg7_iOIYohlRirry0rP8QglKiEw5LnA7jg_9mIdOO0C4xxx_XZqI_Nqdf6sl2cciDMYUnX8-snNeM6bx1rO21ISaM9AkDLZLT1klk20FmA3hij-hZH3VEjW6M8NUoqQA-9ndQk3h_J1kyL:1q24UA:9a5XOwIoAhFXBcINpAcl44U2xi5tU-mkQ1Eyi5AwTjI",
+        "expire_date": "2023-06-08T06:30:06.252Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "e6qjg9by0wstpo69507udyopsoejnrla",
+    "fields": {
+        "session_data": ".eJxljM0KgzAQBt8lZxE1_97aFwm7cYOhaYSa9FL67lWRQulxZ76dFwPvl5qLe9IjhkiTozvExMZcU2q-tq70YCMTrGEOapkP4OL0zxD8jfIuIKUdt2ejPTanXtvLdlEu0UOJS76eXz-pGdZ568jBCC601WQHxYMia1HbDgMgV0pO0pBAblAhiT70ZIIA6JWW0krslGDvD-NkTUI:1q24Wz:AsjH3GC699SyuiiriO3QS5VCefuSSAIBXLp_BWh4G8U",
+        "expire_date": "2023-06-08T06:33:01.358Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "hxznbrt86em99exypsvtxpebz8x9zbxb",
+    "fields": {
+        "session_data": ".eJxljMEOwiAMQP-F87Js0g7ZTX-EFCgZEVniwIvx392WxcR4a99r30uQc3PNxTz5EUNkb_hOMYkx15Sar60LP8QoUDTCUC3TDkz0_8ySu3HeBKW04fZotPvNoZf2sm6cS3RU4pyvx9dPaqJlWjsgHVo8o0fU6-y8JD9o1WsfpFLaSmalUGmAECyAhH6ATvfW6RPQ0HXi_QHwNU0H:1q24ZA:jV3Cdk7Xd3ltroOZv1dvHXZWYJdXInObYLjDVaALR3s",
+        "expire_date": "2023-06-08T06:35:16.758Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "jun8s9xzzm7wp366k73k69o12sn6wc8h",
+    "fields": {
+        "session_data": ".eJxljM0KwyAQBt_Fcwhq4l9u7YvIuiqRWgON9lL67k1CKJQed-bbeRFAXFqp9hkeKabgbbhDymQqLefua9saHmQijHTEQqvzAWzy_8wB3kLZBeS84_5s9Mfm1Gt_2a5QakKoaSnX8-snNcM6b51IOXgXB4rSqcEw5JJRxTUK8NJxZDLoyLUyoxwpx8FoB0oYMWrKnBScvD_xh0zj:1q24M3:wjEEVc3oEExcbQ89c5ifAAuZLBfifAiy-ESr29yBTMs",
+        "expire_date": "2023-06-08T06:21:43.272Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rhn8cd8ggrj41r8agjb4jvrepfoqz4o7",
+    "fields": {
+        "session_data": ".eJxljEEKgzAQRe-StYgao4m79iJhZjLB0DSCJt2U3r1WpFC6nPf-vKcAoqWkbB-8Bh_YWb5DiGJKJcbqa8vGq5hEJyphoeT5ADa4f4ZAN04fATF-cH026mNz6q2-7BenHAhyWNL1_PpJzbDNe0cqbszYO4ZuIImNkgq17tFL6Z0z2HsihYZb1XpjsENNSjZkNOrR88Di9QYKAE6A:1q24PX:xpWM5bcEZt7MKGQhEB3e_BlJ41F-vhuJA0gEBlwWaMA",
+        "expire_date": "2023-06-08T06:25:19.846Z"
+    }
+}
+]
